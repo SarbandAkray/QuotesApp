@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Loading</title>
+    <link rel = "stylesheet" href = "../node_modules/bootstrap/dist/css/bootstrap.min.css" />
+</head>
+<body>
+    <div class="container center">        
+        <div class="d-flex justify-content-center align-items-center vh-100 flex-column">
+            <h1> QUOTES </h1>
+            <p>LOADING</p>
+            <div class="loader"></div>
+            </div>
+    </div>
+   
+</body>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Libre+Barcode+128+Text&family=Philosopher&display=swap');
+    .center{
+        width:300;
+        height:300;
+    }
+    body{
+        font-family: 'Philosopher', sans-serif;
+        background-color: silver;
+        animation: fade 2s linear;
+    }
+    .loader {
+    border: 8px solid #f3f3f3; 
+    border-top: 8px solid #8a8a8a; 
+    border-radius: 50%;
+    width: 75px;
+    height: 75px;
+    animation: spin 2s linear infinite;
+    }
+
+    @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+    }
+    @keyframes fade {
+        0% {opacity: 0; }
+    100% { opacity: 1;}
+    }
+</style>
+</html>

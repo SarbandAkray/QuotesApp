@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Barcode+128+Text&family=Philosopher&display=swap');
+
+body {
+  font-family: 'Philosopher', sans-serif;
+  overflow: hidden;
+ 
+}
+
+#close-btn{
+  width: 15px;
+  height: 15px;
+  border: none;
+  background-color: red;
+  border-radius: 30px;
+}
+#mini-btn{
+  width: 15px;
+  height: 15px;
+  border: none;
+  background-color: yellow;
+  border-radius: 30px;
+}
+#max-btn{
+  width: 15px;
+  height: 15px;
+  border: none;
+  background-color: limegreen;
+  border-radius: 30px;
+}
+#close-btn:hover{
+  cursor: pointer;
+  
+}
+#mini-btn:hover{
+  cursor: pointer;
+}
+#max-btn:hover{
+  cursor: pointer;
+}
+.navbar{
+  background-color: silver;
+}
+
+body{
+  background-color: rgb(46, 46, 46);
+}
+
+/* scroll bar settings */
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+    border-radius: 10px;
+  }
+
+
+/*Go back button*/
+.goback{
+    width: 30px;
+    position: absolute;
+    left: 10px;
+}
+.goback:hover{
+    cursor: pointer;
+    animation: back 1s ease-in-out forwards;
+   
+}
+.gobackfill{
+    fill:white; 
+    width:1px;
+    
+}
+.goback:hover a svg g path{
+    fill: black;
+}
+@keyframes back {
+    100%{
+        width: 35px;
+        background-color: rgba(255, 255, 255, 0.75);
+        box-shadow: 0px 0px 10px 5px #f1f1f1;
+    }
+    
+}
+

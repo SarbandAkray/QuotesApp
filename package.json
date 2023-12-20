@@ -1,0 +1,73 @@
+{
+  "name": "Quotes",
+  "productName": "Quotes",
+  "version": "1.0.0",
+  "description": "App made by Sarband Akray",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "electron-forge start",
+    "package": "electron-forge package",
+    "make": "electron-forge make",
+    "publish": "electron-forge publish",
+    "lint": "echo \"No linting configured\""
+  },
+  "keywords": [],
+  "author": {
+    "name": "sarband",
+    "email": "81394460+SarbandAkray@users.noreply.github.com"
+  },
+  "license": "MIT",
+  "config": {
+    "forge": {
+      "packagerConfig": {
+        "icon": "./assets/logo"
+      },
+      "makers": [
+        {
+          "name": "@electron-forge/maker-squirrel",
+          "config": {
+            "name": "bootstarptemplate"
+          }
+        },
+        {
+          "name": "@electron-forge/maker-zip",
+          "platforms": [
+            "darwin"
+          ]
+        },
+        {
+          "name": "@electron-forge/maker-deb",
+          "config": {}
+        },
+        {
+          "name": "@electron-forge/maker-rpm",
+          "config": {}
+        }
+      ]
+    }
+  },
+  "dependencies": {
+    "-": "^0.0.1",
+    "ajax": "^0.0.4",
+    "animejs": "^3.2.1",
+    "auto-launch": "^5.0.5",
+    "axios": "^0.25.0",
+    "bootstrap": "^5.1.3",
+    "drag": "^0.0.4",
+    "electron-alert": "^0.1.20",
+    "electron-squirrel-startup": "^1.0.0",
+    "jquery": "^3.6.0",
+    "mdb-ui-kit": "^3.10.1",
+    "node-fetch": "^3.1.1",
+    "open": "^8.4.0",
+    "shell": "^0.8.6"
+  },
+  "devDependencies": {
+    "@electron-forge/cli": "^6.0.0-beta.63",
+    "@electron-forge/maker-deb": "^6.0.0-beta.63",
+    "@electron-forge/maker-rpm": "^6.0.0-beta.63",
+    "@electron-forge/maker-squirrel": "^6.0.0-beta.63",
+    "@electron-forge/maker-zip": "^6.0.0-beta.63",
+    "electron": "^16.0.7"
+  }
+}

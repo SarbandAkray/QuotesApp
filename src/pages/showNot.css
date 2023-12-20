@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Barcode+128+Text&family=Philosopher&display=swap');
+
+body {
+  font-family: 'Philosopher', sans-serif;
+  overflow: hidden;
+ 
+}
+
+#close-btn{
+  width: 15px;
+  height: 15px;
+  border: none;
+  background-color: red;
+  border-radius: 30px;
+}
+#mini-btn{
+  width: 15px;
+  height: 15px;
+  border: none;
+  background-color: yellow;
+  border-radius: 30px;
+}
+#max-btn{
+  width: 15px;
+  height: 15px;
+  border: none;
+  background-color: limegreen;
+  border-radius: 30px;
+}
+#close-btn:hover{
+  cursor: pointer;
+  
+}
+#mini-btn:hover{
+  cursor: pointer;
+}
+#max-btn:hover{
+  cursor: pointer;
+}
+.navbar{
+  background-color: silver;
+}
+
+body{
+  background-color: rgb(46, 46, 46);
+}
+
+
+@-webkit-keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 100%, 0);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 100%, 0);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.first { 
+   opacity: 0;
+  -webkit-animation: fadeInUp 1s ease-in-out 0s forwards;
+          animation: fadeInUp 1s ease-in-out 0s forwards;
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
+}
+cite {
+  opacity: 0;
+  -webkit-animation: fadeInUp 1s ease-in-out 0s forwards;
+          animation: fadeInUp 1s ease-in-out 0s forwards;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+}
+
+.quote{
+  min-height: 300px;
+}
+
+.madeBy{
+  background-color: silver;
+   padding-bottom: 10px;
+}
+
+.title{
+  margin-top: 30px;
+}
+
+
+/* scroll bar settings */
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+  border-radius: 10px;
+}
+
+
+/* BUTTONS OF QUOTES*/
+
+#addFav:hover{
+  cursor: pointer;
+  box-shadow: 1px 1px 1px 1px #888888;
+  border-radius: 30px;
+}
+
+#nextquote:hover{
+  cursor: pointer;
+  box-shadow: 1px 1px 1px 1px #888888;
+  border-radius: 30px;
+}
