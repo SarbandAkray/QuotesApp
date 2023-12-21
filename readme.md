@@ -2,7 +2,7 @@
 
 this is an opensource project for a quotes app that gives you motivational quotes in an windows application and runs in system tray with favourting feature.
 
-_NOTE: for developers who want to run this application all localy, you need to clone the backend repo:[https://github.com/SarbandAkray/quotes-backend](https://) and make sure to change the backend url link in the index.js after you run the backend app_
+_NOTE: for developers who want to run this application all localy, you need to clone the backend repo:[https://github.com/SarbandAkray/quotes-backend](https://github.com/SarbandAkray/quotes-backend) and make sure to change the backend url link in the index.js after you run the backend app_
 
 ## preview of the application
 
@@ -10,7 +10,7 @@ _NOTE: for developers who want to run this application all localy, you need to c
 
 ## installation process (normal user)
 
-1. download the app from this link [quotes.sarband.online](https://)
+1. download the app from this link [quotes.sarband.online](https://quotes.sarband.online)
 2. run the setup file
 
 ## installation process (developer)
