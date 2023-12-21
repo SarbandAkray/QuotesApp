@@ -58,7 +58,7 @@ app.on("ready", () => {
   //do stuff while loading when done emit finished;
   let getversion = axios({
     method: "get",
-    url: "http://localhost:8080/getVersion",
+    url: "http://quotes.sarband.online/getVersion",
     responseType: "json",
   }).then(function (response) {
     let data1 = response.data;
